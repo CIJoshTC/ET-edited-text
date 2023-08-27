@@ -34,9 +34,10 @@ module.exports = () => {
         background_color: '#ffffff',
         icons: [
           {
-            src: path.resolve('src/assets/icons/icon_96x96.png'),
+            src: './client/favicon.ico' ,
             sizes: [96, 128, 192, 256, 384, 512],
-          }
+            destination: path.join('icons'),
+          },
         ]
       }),
       new InjectManifest({

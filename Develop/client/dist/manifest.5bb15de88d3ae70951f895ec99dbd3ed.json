@@ -1,0 +1,9 @@
+{
+  "name": "JATE - Just Anotehr Text Editor",
+  "short_name": "JATE",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "A simple text editor app.",
+  "background_color": "#ffffff"
+}
