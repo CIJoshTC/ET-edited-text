@@ -28,20 +28,20 @@ module.exports = () => {
         chunks: ['install'],
       }),
       new WebpackPwaManifest({
-        name: 'JATE - Just Anotehr Text Editor',
-        short_name: 'JATE',
-        description: 'A simple text editor app.',
+        name: 'E.T',
+        short_name: 'ET',
+        description: 'ET Edited Text',
         background_color: '#ffffff',
         icons: [
           {
-            src: './client/favicon.ico' ,
+            src: './src/favicon.ico' ,
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('icons'),
           },
         ]
       }),
       new InjectManifest({
-        swSrc: './client/src-sw.js', 
+        swSrc: './src/src-sw.js', 
       }),
     ],
 

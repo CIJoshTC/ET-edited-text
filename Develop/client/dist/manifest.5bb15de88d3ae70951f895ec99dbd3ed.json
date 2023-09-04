@@ -1,9 +1,18 @@
 {
-  "name": "JATE - Just Anotehr Text Editor",
-  "short_name": "JATE",
+  "name": "E.T",
+  "short_name": "ET",
+  "icons": [
+    {
+      "src": "icons/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+ 
+  ],
   "orientation": "portrait",
   "display": "standalone",
   "start_url": ".",
   "description": "A simple text editor app.",
   "background_color": "#ffffff"
+  
 }
